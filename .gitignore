@@ -1,0 +1,19 @@
+# 构建产物
+build/
+
+# 签名密钥：绝不能提交（否则别人可以拿它签出"官方更新"）
+*.keystore
+*.jks
+
+# 签名中间文件
+*.idsig
+
+# 构建依赖（Xposed API jar 自行下载）
+lib/*.jar
+
+# 编辑器 / 系统杂项
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
